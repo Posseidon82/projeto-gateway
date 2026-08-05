@@ -1,0 +1,11 @@
+spring:
+  security:
+    require-ssl: false
+jwt:
+  secret: Zm9vYmFyYmF6cXV4Cg==
+  issuer: gateway-api
+backend:
+  url: http://localhost:8081
+server:
+  ssl:
+    enabled: false
